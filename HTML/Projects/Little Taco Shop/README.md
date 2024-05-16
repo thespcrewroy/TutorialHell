@@ -9,10 +9,10 @@
 * Each page contains a footer for copyright, trademarks, and for other legal technicalities.
 
 ## Video Demonstration of Project
-[![Watch the video](https://img.youtube.com/vi/hb7sd_uWvC0/0.jpg)](https://www.youtube.com/watch?v=hb7sd_uWvC0)
+
 
 ## Credits: Learn HTML – Full Tutorial for Beginners (2022) By Dave Grey
-[![Watch the video](https://img.youtube.com/vi/hb7sd_uWvC0/0.jpg)](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+[![Watch the video](https://img.youtube.com/vi/kUMe1FH4CHE/0.jpg)](https://www.youtube.com/watch?v=kUMe1FH4CHE)
 
 ## How to Run Locally 👇
 1. Download [Visual Studio Code](https://code.visualstudio.com/download)

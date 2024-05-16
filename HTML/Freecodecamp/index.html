@@ -42,69 +42,92 @@
         </nav>
     </header>
 
-    <hr>
+    <hr> <!-- A horizontal rule to separate the header from the main content -->
+
     <main>
+        <!--
+            This article represents the first section of the web page.
+            * It contains a heading, a brief description, and two sections.
+            * The first section contains an HTML5 example code block.
+            * The second section contains a list of tasks for the day and a table of my daily schedule.
+        -->
         <article id="html">
-            <h2>I'm Ready to Learn HTML</h2>
-            <p>This is my first web page.</p>
+            <h2>I'm Ready to Learn HTML</h2> <!-- Heading for the first article -->
+
+            <p>This is my first web page.</p> <!-- A brief description of the article -->
+
+            <!--
+                This section represents an HTML5 example code block.
+                * It contains a heading, an image, and a figure with a code snippet.
+                * The image is an HTML5 logo with a width and height of 300 pixels.
+            -->
             <section>
                 <h3>HTML5</h3>
-                <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300"
+                <img src="img/html_logo_300x300.png" 
+                    alt="HTML5 Logo" 
+                    title="I am learning HTML5" 
+                    width="300"
                     height="300">
                 <figure>
-                    <figcaption>An Example of HTML5 code</figcaption>
+                    <figcaption>The Following Is An Example of HTML5 Code</figcaption>
                     <p>
                         <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
                     </p>
                 </figure>
             </section>
+
+            <!--
+                This section represents a list of tasks for the day.
+                * It contains a heading and an ordered list.
+                * Each item in the ordered list is a description of of a task
+                * There is an aside element with a quiz question for the user.
+                * There is a table of what I do throughout the day.
+            -->
             <section>
                 <h3>My Daily Schedule</h3>
+
                 <p>Let me tell you how:</p>
                 <ol>
-                    <li>...I learn more about web dev.</li>
-                    <li>...I plan out my schedule.</li>
-                    <li>...I use resources from <abbr title="Mozilla Developer Network">
-                            <a href="https://developer.mozilla.org/">MDN</a>
-                        </abbr>.</li>
+                    <li>I learn more about web dev.</li>
+                    <li>I plan out my schedule.</li>
+                    <li>I use resources from <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a> </abbr>.
+                    </li>
                 </ol>
                 <aside>
                     <details>
                         <summary>Guess the <mark>number of hours</mark> I code per day</summary>
-                        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3
-                                hours</time> every morning.</p>
+                        <p>
+                            I start at <time datetime="08:00">8 am</time> and I write code for 
+                            <time datetime="PT3H">3 hours</time> every morning.
+                        </p>
                     </details>
                 </aside>
-                <br>
+
+                <br> <!-- A line break to separate the sections -->
+                
                 <table>
                     <caption>My Daily Schedule</caption>
                     <thead>
                         <tr>
-                            <th>&nbsp;</th>
-                            <th scope="col">Time</th>
+                            <th scope="col" colspan="2">Time</th>
                             <th scope="col">Activity</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <th scope="row">Morning</th>
-                            <td>
-                                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
-                            </td>
+                            <td> <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time> </td>
                             <td>Write Code</td>
                         </tr>
                         <tr>
                             <th scope="row">Break</th>
-                            <td>
-                                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
-                            </td>
+                            <td> <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time> </td>
                             <td>Eat Lunch</td>
                         </tr>
                         <tr>
                             <th scope="row">Afternoon</th>
-                            <td>
-                                <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
-                            </td>
+                            <td> <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time> </td>
                             <td>Study for Other Courses</td>
                         </tr>
                         <tr>
@@ -114,21 +137,29 @@
                         </tr>
                         <tr>
                             <th scope="row">Night</th>
+                            <!-- <td> -> All Other Times-->
                             <td>Sleep</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and
-                                recharge!</td>
+                            <td colspan="3">And that's what I do every day, 
+                                5 days a week. Just eat, sleep, code ..and recharge!
+                            </td>
                         </tr>
                     </tfoot>
                 </table>
             </section>
         </article>
 
-        <hr>
+        <hr> <!-- A horizontal rule to separate the articles -->
 
+        <!--
+            This article represents the second section of the web page.
+            * It contains a heading, a brief description, and two sections.
+            * The first section contains a list of places I'd like to visit.
+            * The second section contains a list of places I'd like to avoid.
+        -->
         <article id="vacation">
             <h2>I Am Also Planning a Vacation</h2>
             <p>I've been working hard and <em>really need a getaway</em>.</p>
@@ -180,11 +211,20 @@
             </section>
         </article>
 
-        <hr>
+        <hr> <!-- A horizontal rule to separate the articles -->
 
+        <!--
+            This article represents the third section of the web page.
+            * It contains a heading and a form with various input elements.
+            * The form has a fieldset with a legend and various input elements.
+            * One input section includes personal info such as first name, last name, 
+                password, favorite decare, favorite coffee, and phone number.
+            * Another input section includes a radio button for favorite food.
+            * Another input section includes checkboxes for pets.
+            * There is a textarea input for the user to send a message.
+        -->
         <article id="contact">
             <h2>Contact Me</h2>
-            <p>I'd really like to hear from you!</p>
 
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
@@ -291,15 +331,17 @@
             </form>
         </article>
     </main>
-    <hr>
+
+    <hr> <!-- A horizontal rule to separate the main content from the footer -->
+
+    <!--
+        This HTML code represents the footer section of a web page.
+        * It contains a paragraph with the author's name and a link to the about page.
+        * It also includes a paragraph with a link to the top of the page.
+    -->
     <footer>
-        <p>
-            &lt;&lt;&lt; &copy; <a href="about.html">Dave Gray</a> &gt;&gt;&gt;
-        </p>
-        <p>
-            <a href="#">Back to Top</a>
-        </p>
+        <p> &lt;&lt;&lt; &copy; <a href="about.html">Swapnil Roy</a> &gt;&gt;&gt; </p>
+        <p> <a href="#">Back to Top</a> </p>
     </footer>
 </body>
-
 </html>

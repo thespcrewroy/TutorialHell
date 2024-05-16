@@ -13,9 +13,20 @@
 
 ## How to Run Locally
 1. Download [Visual Studio Code](https://code.visualstudio.com/download)
-2. Download [Github Desktop](https://desktop.github.com/)
-3. Clone the repository into your local machine (check FAQ)
-4. Navigate
+2. Install the necessary VSCode Extensions (check FAQ)
+3. Download [Github Desktop](https://desktop.github.com/)
+4. Clone the repository into your local machine (check FAQ)
+5. Navigate to HTML --> Projects --> Little Taco Shop
+6. Open "Little Taco Shop" Folder in VS Code
+7. Navigate to index.html
+8. Right click and select "Open with Live Server" (Shortcut: CTRL + L + O)
+
+## FAQ
+Q1) What extensions do I install on VSCode? <br>
+ANS) "Live Server" by Ritwick Dey
+
+Q2) How do I clone a repository into my local machine with Github desktop? <br>
+ANS) [Tutorial](https://www.youtube.com/watch?v=PoZNIbs_wx8)
 
 ## Questions
 For questions, please direct them to stopsendingmespam@yahoo.com with the subject "Question - [Name of Project]".

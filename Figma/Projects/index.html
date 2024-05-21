@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Figma Design Embed</title>
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="author" content="Swapnil Roy">
+    <meta name="description" content="This page contains my first project in Figma.">
+    <title>Figma Design Project</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <div class="container">
+        <h1 style="text-align: center;">Figma Design Project</h1>
+        <!-- Loading spinner -->
+        <div class="spinner"></div>
+        <!-- Figma iframe with loading="eager" attribute -->
+        <iframe id="figmaFrame" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FQix67C8V4ghKkBHk6Y5Ih3%2FFreeCodeCamp%253A-UI%252FUX-Design-Tutorial%3Ft%3DlSG8isUzS8HKGNd4-1" allowfullscreen loading="eager"></iframe>
+    </div>
 
-<div class="container">
-  <h1 style="text-align: center;">Figma Design Embed</h1>
-  <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FQix67C8V4ghKkBHk6Y5Ih3%2FFreeCodeCamp%253A-UI%252FUX-Design-Tutorial%3Ft%3DlSG8isUzS8HKGNd4-1" allowfullscreen></iframe>
-</div>
+    <script>
+        window.addEventListener('load', function() {
+            var iframe = document.getElementById('figmaFrame');
+            var spinner = document.querySelector('.spinner');
 
+            // Show spinner when iframe starts loading
+            iframe.addEventListener('loadstart', function() {
+                spinner.style.display = 'block';
+            });
+
+            // Hide spinner when iframe has finished loading
+            iframe.addEventListener('load', function() {
+                spinner.style.display = 'none';
+            });
+        });
+    </script>
 </body>
 </html>

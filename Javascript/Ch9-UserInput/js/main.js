@@ -1,45 +1,16 @@
-// condition ? ifTrue : ifFalse;
+/* Shows a message box with a message */
+// alert("Hello World!");
 
-/* One access variable */
-let soup = "Chicken Noodle Soup";
-let response = soup ? "Yes, we have soup." : "Sorry, no soup today.";
-console.log(response);
+/* Shows a message box with a message and an OK button */
+/* You can choose what happens when the OK button is clicked using equal signs*/
+// let myBoolean = confirm("Ok === True\nCancel === False");
+// console.log(myBoolean);
 
-/* Two access variables */
-soup = "Chicken Noodle Soup";
-let isCustomerBanned = true;
-let soupAccess = isCustomerBanned
-  ? "Sorry, no soup for you!"
-  : soup
-  ? `Yes, we have ${soup} today.`
-  : "Sorry, no soup today.";
-console.log(response);
-
-/* Grade Example */
-let testScore = 79;
-let myGrade =
-  testScore > 89
-    ? "A"
-    : testScore > 79
-    ? "B"
-    : testScore > 69
-    ? "C"
-    : testScore > 59
-    ? "D"
-    : "F";
-console.log(`My grade is ${myGrade}.`);
-
-/* Rock Paper Scissors */
-let playerOne = "rock";
-let computer = "rock";
-let result =
-  playerOne === computer
-    ? "Tie game!"
-    : playerOne === "rock" && computer === "paper"
-    ? "Computer wins!"
-    : playerOne === "paper" && computer === "scissors"
-    ? "Computer wins!"
-    : playerOne === "scissors" && computer === "rock"
-    ? "Computer wins!"
-    : "Player wins!";
-console.log(result);
+/* Shows a prompt box with a message, input field, and OK and Cancel buttons */
+/* If no data is entered, null is returned, so check for that */
+let name = prompt("Please enter your name.");
+if (name) {
+  console.log(name.trim() ?? "You didn't enter your name.")
+} else {
+  console.log("You didn't enter your name.")
+}

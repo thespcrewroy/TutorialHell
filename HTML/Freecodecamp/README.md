@@ -10,7 +10,6 @@ It is an all-in-one beginner tutorial to help me learn web development skills. T
 teaches HTML5.***
 
 ## What I Learned
-
 * **Head Element**
 * **Text**
 * **Lists**

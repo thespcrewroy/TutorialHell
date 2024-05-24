@@ -1,5 +1,7 @@
 # Little Taco Shop
 
+![Project](https://img.shields.io/badge/Project-lightorange)
+
 ## Introduction
 * This project is a static HTML restaurant website. 
 * There are 3 webpages.

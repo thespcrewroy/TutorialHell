@@ -16,6 +16,11 @@ user experience and user interface.***
 * **UI Layout**
 * **Mockup**
 
+## Resources
+* **[Concepts](https://concepts.app/en/download)**: Drawing app for wireframe
+* **[FontAwesome](https://fontawesome.com/)**: Icons
+* **[Lipsum](https://www.lipsum.com/)**: Placeholder text
+
 ## Questions
 For questions, please direct them to stopsendingmespam@yahoo.com with the subject "Question - [Name of Project]".
 

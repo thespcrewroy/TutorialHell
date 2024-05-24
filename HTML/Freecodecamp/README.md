@@ -21,6 +21,13 @@ teaches HTML5.***
 * **[Validation service](https://validator.w3.org/)**: Determines if the html webpage has errors
 * **[Mozilla Developer Network](https://developer.mozilla.org/en-US/)**: HTML Documentation provider
 * **[LoremIpsum](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)**: Generate placeholder images in the desired format
+* **[IrfanView](https://www.irfanview.com/)**: Image resizer
+* **[Canva](https://www.canva.com/)**: Image cropper
+* **[Tinypng](https://tinypng.com/)**: Image compressor
+* **[Unsplash](https://unsplash.com/)**: Non-copyright and free images
+* **[Pexels](https://www.pexels.com/)**: Non-copyright and free images
+* **[Gratisography](https://gratisography.com/)**: Non-copyright and free images
+* **[Pixabay](https://pixabay.com/)**: Non-copyright and free images
 * **[Chrome Extension - HTML5 Outliner](https://chromewebstore.google.com/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)**: Makes an outline of webpage based on semantic elements
 * **[Chrome Extension - Dark New Tab](https://chromewebstore.google.com/detail/dark-new-tab/kcphhkbdlfggickaoeiahdcfhagfbajl?hl=en)**: Turns webpage to dark mode
 * **[VSCode Extension - Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**: A way to view web pages as we create them on local server

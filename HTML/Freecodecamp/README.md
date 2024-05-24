@@ -1,0 +1,34 @@
+# Learn HTML - Full Tutorial for Beginners (2022) by Dave Gray
+[![Watch the video](https://img.youtube.com/vi/kUMe1FH4CHE/0.jpg)](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+
+## Introduction
+***This is a course taught by Dave Gray and advertised on freeCodeCamp's YouTube channel.  <br>
+It is an all-in-one beginner tutorial to help me learn web development skills. This course <br>
+teaches HTML5.***
+
+## What I Learned
+
+* **Head Element**
+* **Text**
+* **Lists**
+* **Links**
+* **Images**
+* **Semantic Tags**
+* **Tables**
+* **Forms and Inputs**
+
+## Resources
+* **[Validation service](https://validator.w3.org/)**: Determines if the html webpage has errors
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/): HTML Documentation provider
+* [LoremIpsum](https://loremipsum.io/21-of-the-best-placeholder-image-generators/): Generate placeholder images in the desired format
+* [Chrome Extension - HTML5 Outliner](https://chromewebstore.google.com/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo): Makes an outline of webpage based on semantic elements
+* [Chrome Extension - Dark New Tab](https://chromewebstore.google.com/detail/dark-new-tab/kcphhkbdlfggickaoeiahdcfhagfbajl?hl=en): Turns webpage to dark mode
+* [VSCode Extension - Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Auto-formats code
+* [VSCode Extension - VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): Adds icons next to VS Code files
+* [VSCode Extension - GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme): Changes the theme of VS Code work environment
+* [HttpBin](https://httpbin.org/#/Auth): provides get, post, put, and delete request backend for HTML forms
+* [CanIUse](https://caniuse.com/): Check the coverage for new features languages introduce
+
+
+## License
+[MIT](https://opensource.org/licenses/MIT)

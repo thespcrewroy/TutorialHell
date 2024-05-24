@@ -39,5 +39,4 @@ Currently, there are 0 issues.
 If you would like to raise an issue, please direct them to stopsendingmespam@yahoo.com with the subject "Issue - [Name of Project]".
 The issue list of this repo is exclusively for bug reports and feature requests.
 
-## License
-[MIT](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT%202024-orange.svg)]([http://creativecommons.org/licenses/by-nc-nd/4.0/](https://opensource.org/license/mit))

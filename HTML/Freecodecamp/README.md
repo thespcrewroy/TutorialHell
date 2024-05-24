@@ -37,6 +37,14 @@ teaches HTML5.***
 * **[HttpBin](https://httpbin.org/#/Auth)**: provides get, post, put, and delete request backend for HTML forms
 * **[CanIUse](https://caniuse.com/)**: Check the coverage for new features languages introduce
 
+## VS Code Commands
+* ```OPTION + Z```: Wrap text
+* ```COMMAND + S```: save your progress
+* ```COMMAND + D```: selects all instances of highlighted text
+* ```SHIFT + OPTION + DOWN```: Copy down
+* ```SHIFT + OPTION + A```: Comments out all highlighted text
+
+
 
 ## License
 **[MIT](https://opensource.org/licenses/MIT)**

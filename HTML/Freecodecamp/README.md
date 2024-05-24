@@ -1,4 +1,7 @@
 # Learn HTML - Full Tutorial for Beginners (2022) by Dave Gray
+
+![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
+
 [![Watch the video](https://img.youtube.com/vi/kUMe1FH4CHE/0.jpg)](https://www.youtube.com/watch?v=kUMe1FH4CHE)
 
 ## Introduction
@@ -44,7 +47,4 @@ teaches HTML5.***
 * ```SHIFT + OPTION + DOWN```: Copy down
 * ```SHIFT + OPTION + A```: Comments out all highlighted text
 
-
-
-## License
-**[MIT](https://opensource.org/licenses/MIT)**
+[![License: MIT](https://img.shields.io/badge/License-MIT%202024-orange.svg)](https://opensource.org/license/mit)

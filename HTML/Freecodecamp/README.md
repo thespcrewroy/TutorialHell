@@ -9,6 +9,8 @@
 It is an all-in-one beginner tutorial to help me learn web development skills. This course <br>
 teaches HTML5.***
 
+[![Project](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/tree/main/HTML/Projects/Little%20Taco%20Shop)
+
 ## What I Learned
 * **Head Element**
 * **Text**

@@ -1,5 +1,4 @@
-﻿<a name="_jjnm7xk89k9p"></a>Definitions
-
+## Definitions
 - **Hypertext**: refers to links that connect with pages to one another, either within a single website or between website
 - **Element:** consists of the starting and ending tag and everything in between
 - **Opening/Closing Tag:** “<” or “>”
@@ -8,7 +7,7 @@
 - **Absolute reference:** full address for the web page to where we are going
 - **Relative reference:** when we link to something that is already on the same server
 
-<a name="_wxvechuu2rgg"></a><a name="_fpakx5ku30p"></a>Standard Conventions
+## Standard Conventions
 
 - **index.html**: always the file name expected to launch a website
 - Always keep your file names in lowercase and with no spaces and end in “.html”
@@ -22,13 +21,12 @@
   - Do not link your email or show your email because web spiders can harvest them, instead link to a contact form 
 - Keep your images in a separate folder
 - You should multiply any element using a \* and a integer
-- You can only have 1 <h1> per page
-- Best practice to only go down to <h3>
+- You can only have 1 ```<h1>``` per page
+- Best practice to only go down to ```<h3>```
 - When adding an image check the image aspect ratio and set the width and height to the aspect ratio of the image in the code
 - DO NOT use a table to structure your entire HTML page
 
-<a name="_h2387iszzhpz"></a>Resources
-
+## Resources
 - [**Validation service**](https://validator.w3.org/) 
   - Determines if the webpage has errors
   - Upload the web page file
@@ -70,55 +68,53 @@
   - Changes the theme of your VSCode work environment
   - Change to GitHub Dark Default
 
-<a name="_rccrxgz61wts"></a>Commands
-
+## Commands
 - **OPTION + z:** allows you to wrap your text
 - **COMMAND + s:** save your progress
 - **COMMAND + d:** selects all instances of highlighted text
 - **SHIFT + OPTION + DOWN:** Copy down
 - **SHIFT + OPTION + A:** Comments out all highlighted text
 
-<a name="_ha7e986ql8s4"></a>Elements
-
-- **<meta>:** stores the metadata
+## Elements
+- **```<meta>```:** stores the metadata
   - **charset=”UTF-8”:** assigns a standard character set to the metadata
   - **name=””:**  assigns a section header of the metadata
   - **content=””:** write whatever description you want under that name
-- **<p>:** paragraph
-- **<html>:** every html page starts with this tag
+- **```<p>```:** paragraph
+- **```<html>```:** every html page starts with this tag
   - ` `**lang = “[language]”:** determines the language of the webpage
-- **<head>:** contains data that is not seen on a page but contains the metadata about the page
-- **<title>:** creates a title for your webpage (shows on the tab not on the page)
-- **<style>:** Adds some quick css
-- **<body>:** the part of the page that everybody sees in the browser
-- **<h1>:** The biggest heading we can put. You can only have one per page. Should say what your page is about. Adding a number other than 1 adds a subtopic. Good practice to only have up to three subtopic levels (h1, h2, and h3)
+- **```<head>```:** contains data that is not seen on a page but contains the metadata about the page
+- **```<title>```:** creates a title for your webpage (shows on the tab not on the page)
+- **```<style>```:** Adds some quick css
+- **```<body>```:** the part of the page that everybody sees in the browser
+- **```<h1>```:** The biggest heading we can put. You can only have one per page. Should say what your page is about. Adding a number other than 1 adds a subtopic. Good practice to only have up to three subtopic levels (h1, h2, and h3)
   - **id=””**: assigns an id to a heading
-- **<!DOCTYPE html>:** Should be in every html file at the beginning
-- **<hr>:** adds horizontal lines across the page
-- **<br>:** acts as a nextLine/lineBreak to your web page where it returns the next line
-- **<em>:** in-line element that italicize the text
-- **<strong>:** in-line element that bolds the text
-- **<abbr>**: with the title attribute, adds an abbreviation definition that gives you the full term for the abbreviation if you hover over it
-- **<address>:** anything inside this element tells the browser that this is an address and is italicized by the browser
-- **<!--[comment]-->:** You can write comments that the public cannot see unless they use inspect element
-- **<ls>:** adds a list item
-- **<ol>:** ordered list with numbers. Does not need a paragraph tag enclosing this tag
-- **<ul>:** unordered list with dots. Does not need a paragraph tag enclosing this tag
-- **<dl>**: adds a description list
-- **<link>:** pulls in resources from other parts of the web or within our web page
+- **```<!DOCTYPE html>```:** Should be in every html file at the beginning
+- **```<hr>```:** adds horizontal lines across the page
+- **```<br>```:** acts as a nextLine/lineBreak to your web page where it returns the next line
+- **```<em>```:** in-line element that italicize the text
+- **```<strong>```:** in-line element that bolds the text
+- **```<abbr>```**: with the title attribute, adds an abbreviation definition that gives you the full term for the abbreviation if you hover over it
+- **```<address>```:** anything inside this element tells the browser that this is an address and is italicized by the browser
+- **```<!--[comment]-->```:** You can write comments that the public cannot see unless they use inspect element
+- **```<ls>```:** adds a list item
+- **```<ol>```:** ordered list with numbers. Does not need a paragraph tag enclosing this tag
+- **```<ul>```:** unordered list with dots. Does not need a paragraph tag enclosing this tag
+- **```<dl>```**: adds a description list
+- **```<link>```:** pulls in resources from other parts of the web or within our web page
   - **<link rel="icon" href="[image]" type="image-x/icon">:** adds a favicon
   - **<link rel="stylesheet" href="[filename].css" type="text/css">:** includes the css file into the html workspace
   - **<a href=”[link]”>[text]</a>:** allows you to link other websites around the text
-- **<a>:** anchor tag
-- **<section>:** organizes code into sections. Generic topic.
-- **<article>:** can be replaced from a section. Clear topic.
-- **<nav>:** says we are creating a navigation section of the webpage
+- **```<a>```:** anchor tag
+- **```<section>```:** organizes code into sections. Generic topic.
+- **```<article>```:** can be replaced from a section. Clear topic.
+- **```<nav>```:** says we are creating a navigation section of the webpage
   - **aria-label=””**: label for assistive technology to read outloud
   - **aria-labelledby=””**: use this instead if there is a heading tag within the nav tag with an associated id that is the same name as the aria-labelledby
-- **<figure>:** Encapsulates the surrounding image as a figure
-- **<figcaption>:** inside of the figure element and below the image element that provides a caption that describes the image
-- **<code>:** helps you display code on the webpage
-- **<img>:** adds an image to the webpage
+- **```<figure>```:** Encapsulates the surrounding image as a figure
+- **```<figcaption>```:** inside of the figure element and below the image element that provides a caption that describes the image
+- **```<code>```:** helps you display code on the webpage
+- **```<img>```:** adds an image to the webpage
   - **src=”[link]”:** the link should be the filepath of the image in VSCode
   - **alt=””:** display text if image does not load
   - **title=””:**  adds a visible description when you hover over the image
@@ -126,11 +122,11 @@
   - **loading=”[eager/lazy]”:** tells the webpage how fast to load the image. 
     - Eager: default setting if no setting is defined in the quotations.
     - Lazy: always put this for the images that you do not immediately see
-- **<section>:** separates a clause into a section
+- **```<section>```:** separates a clause into a section
   - **id=””:** gives a section an id that can be called when using css or linked
-- **<main>:** represents the dominant content of the <body> of a document. Consists of content that expands upon the central topic of a document
-- **<footer>:** defines a footer for a document or section. typically contains: authorship information, copyright information, contact information, sitemap, back to top links, related documents, etc.
-- **<a>:** anchor tag
+- **```<main>```:** represents the dominant content of the <body> of a document. Consists of content that expands upon the central topic of a document
+- **```<footer>```:** defines a footer for a document or section. typically contains: authorship information, copyright information, contact information, sitemap, back to top links, related documents, etc.
+- **```<a>```:** anchor tag
   - **href=”#[id]:** links an id
   - **href="tel:+[phone number]”:** adds a phone number link to your site
   - **href=”[absolute link]” target=”[\_blank*/*\_self/\_parents]”:**
@@ -138,35 +134,35 @@
     - \_self: Opens in the same window
     - \_parent: Opens in the parent frame
   - **href="/">[text]:** links back to the root web page
-- **<li>:** list tag
+- **```<li>```:** list tag
   - **<a href=”[image]” download> [image description] </a>:** creates a link that downloads an image when you click on it
-- **<aside>:** used for extra text that is not as important as the article text
-- **<details>:** adds a carrot dropdown element
-- **<summary>:** placed inside a details element and usually includes warranty info that opens up when you click the carrot
-- **<mark>:** an inline element that highlights a piece of text
-- **<time>:** does not change the style of the time but is useful for assistive technologies
+- **```<aside>```:** used for extra text that is not as important as the article text
+- **```<details>```:** adds a carrot dropdown element
+- **```<summary>```:** placed inside a details element and usually includes warranty info that opens up when you click the carrot
+- **```<mark>```:** an inline element that highlights a piece of text
+- **```<time>```:** does not change the style of the time but is useful for assistive technologies
   - **datetime=””:** 
     - put the actual time in universal format here (##:##)
     - If you want to put number of hours, do “PT#H” where (#) is the number of hours you want to display
-- **<div>:** used as a separator and do not add any semantic meaning to your code. Try to avoid using these elements until you know or have used all semantic elements.
-- **<span>:** used as a separator and does not add any semantic meaning to your code. Try to avoid using these elements until you know or have used all semantic elements
-- **<table>:** creates a table. Does not inherently expand to the width of the page
-- **<tr>:** table row
-- **<td>:** table cell that holds the table data
+- **```<div>```:** used as a separator and do not add any semantic meaning to your code. Try to avoid using these elements until you know or have used all semantic elements.
+- **```<span>```:** used as a separator and does not add any semantic meaning to your code. Try to avoid using these elements until you know or have used all semantic elements
+- **```<table>```:** creates a table. Does not inherently expand to the width of the page
+- **```<tr>```:** table row
+- **```<td>```:** table cell that holds the table data
   - **colspan=”[number]”:** creates a cell that is the width of [number] cells
   - **rowspan=”[number]”:** creates a cell that is the height of [number] cells
   - **headers=”[id of each header]”:** use if your table cell has a header and you assigned an id to that table header
-- **<th>:** adds a heading to your table row or column. Default styling is center and bold.
+- **```<th>```:** adds a heading to your table row or column. Default styling is center and bold.
   - **scope=”[col/row]”:** apply based on if your heading is a row heading or column heading for assistive technology
   - **id=””:** assigns a unique id to your table header
-- **<form>:** adds a form to the webpage
+- **```<form>```:** adds a form to the webpage
   - **action=””**: where to send the information. Usually sent to our own server. 
     - [**https://httpbin.org/get**](https://httpbin.org/get): httpbin returns a json with the form data under args array. All of the information is stored as queries in the get uri. The password is not encrypted even if it shows as dots for the viewer. Never send sensitive information with get request as it adds as a query parameter to the uri
     - [**https://httpbin.org/post**](https://httpbin.org/post): httpbin returns a json with the form data under form array. The uri is only the post uri with no queries.
   - **method=””:** define the type of request you used for the action uri
-- **<label>:** defines a label for a form where you put text between the tags
+- **```<label>```:** defines a label for a form where you put text between the tags
   - **for=””:** use camel case, and it is used for screen readers
-- **<input>:** the text box that allows you to input text
+- **```<input>```:** the text box that allows you to input text
   - **type=””:** converts all input to that type. 
     - **text:** converts input to string
     - **password:** converts input to dots. You have to reenter this each time.
@@ -187,46 +183,44 @@
   - **max=””:** for number input that displays the highest input possible
   - **step=””:** the value to add or subtract when clicking the arrows in number input
   - **value=””:** the starting value to display
-- **<select>:** creates a drop down
+- **```<select>```:** creates a drop down
   - **name=””:** for screen readers
   - **id=””:** assigns a unique id (make it same as the name attribute)
   - **multiple:** defines that you can select multiple options by holding down SHIFT
   - **size=”[number]”:** defines how many boxes from dropdown will display at once
-- **<option>:** creates options for the drop down where you put text between tags
+- **```<option>```:** creates options for the drop down where you put text between tags
   - **value=””:** for screen readers (make it same as the text between tags)
   - **selected:** chooses what is selected from the dropdown by default. ONLY ONE selected per dropdown
-- **<optgroup>:** divides the options in the dropdown
+- **```<optgroup>```:** divides the options in the dropdown
   - **label=””:** labels the dropdown group and displays this label to the user
-- **<datalist>:** creates a filterable dropdown by typing in the input box
-- **<fieldset>:** encompasses form info in a box
-- **<legend>:** puts a title to the fieldset box
-- **<textarea>:** creates a box where you can type in short answers
+- **```<datalist>```:** creates a filterable dropdown by typing in the input box
+- **```<fieldset>```:** encompasses form info in a box
+- **```<legend>```:** puts a title to the fieldset box
+- **```<textarea>```:** creates a box where you can type in short answers
   - **name=””**: for screen readers
   - **id=””:** assign the textarea a unique id (same as name)
   - **cols=””:** width of the textarea
   - **rows=””:** height of the textarea
   - **placeholder=””:** place example data to show user what is expected
-- **<button>:** creates a button with text in between the tags
+- **```<button>```:** creates a button with text in between the tags
   - **type=””:** defines what type of button it is
     - **submit:** checks the required values immediately to see if it is filled out
     - **reset:** 
   - **formaction=””:** we can provide a different address to send the information when we press that specific button
   - **formmethod=””:** set it to what type of request you are doing
 
-<a name="_a769clabspp9"></a>Fillers
+## Fillers
+- **```&nbsp;```:** adds a space
+- **```&copy```:** adds a copyright symbol
+- **```&lt```:** adds a less than symbol
+- **```&gt```:** adds a greater than symbol
 
-- **&nbsp;:** adds a space
-- **&copy:** adds a copyright symbol
-- **&lt:** adds a less than symbol
-- **&gt:** adds a greater than symbol
-
-<a name="_vnioo27w2qgk"></a>Quick CSS
-
-- **font-size: [size]px:** change the font size
-- **back-ground color: #[number]:** change the background color
-- **color: #[name]:** change the font color
-- **border: [number]px [style] #[number]:** Shorthand property for setting border width, weight, and color of the border of a table
-- **border-collapse: collapse:** collapses the borders of table cells into a single border
-- **padding: [number]rem:** sets the thickness of the padding area
-- **font-family: '[name]', [baseName], [type];** changes the font style of the text
+## Quick CSS
+- **```font-size: [size]px```:** change the font size
+- **```back-ground color: #[number]```:** change the background color
+- **```color: #[name]```:** change the font color
+- **```border: [number]px [style] #[number]```:** Shorthand property for setting border width, weight, and color of the border of a table
+- **```border-collapse: collapse```:** collapses the borders of table cells into a single border
+- **```padding: [number]rem```:** sets the thickness of the padding area
+- **```font-family: '[name]', [baseName], [type]```;** changes the font style of the text
 

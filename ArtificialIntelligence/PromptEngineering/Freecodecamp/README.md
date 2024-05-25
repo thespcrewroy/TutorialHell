@@ -22,6 +22,7 @@
 * **Vector/Text Embedding**
 
 ## Resouces
+* **[ChatGPT](https://chat.openai.com/)**: OpenAI's flagship LLM
 * **[OpenAI tokenizer tool](https://platform.openai.com/tokenizer)**: Determines the number of API tokens your prompt uses
 * **[OpenAI API Usage Statistics](https://platform.openai.com/usage)**: Shows data related to usage of OpenAI API
 * **[OpenAI API Text Embeddings](https://platform.openai.com/docs/api-reference/embeddings/create)**: Converts your prompt to a vector embedding

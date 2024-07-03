@@ -1,4 +1,5 @@
-# UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma by Adrian Twarog
+# UI / UX Design Tutorial 
+## Wireframe, Mockup & Design in Figma by Adrian Twarog
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 

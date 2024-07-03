@@ -12,7 +12,7 @@
     * Contact Us
 * There is also a footer for copyright, trademarks, and for other legal technicalities.
 
-## Embed Link To The Project
+## Embed Link To Project
 [![Figma Design](https://i.imgur.com/I6i8VdW.png)](https://www.figma.com/design/Qix67C8V4ghKkBHk6Y5Ih3/FreeCodeCamp%3A-UI%2FUX-Design-Tutorial?node-id=0-1&t=5XAgg9goYSPvA78A-0)
 
 ## Credits: UI / UX Design Tutorial Wireframe, Mockup, & Design by Adrian Twarog

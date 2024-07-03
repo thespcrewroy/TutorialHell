@@ -19,7 +19,7 @@
 [![Watch the video](https://img.youtube.com/vi/c9Wg6Cb_YlU/0.jpg)](https://www.youtube.com/watch?v=c9Wg6Cb_YlU)
 
 ## FAQ
-Q1) How do I view the Project?<br>
+Q1) How do I view the project?<br>
 * You have to create a Figma Account if you do not have one already.
 
 ## Questions

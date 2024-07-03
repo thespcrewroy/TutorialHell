@@ -1,4 +1,4 @@
-# Little Taco Shop
+# Website Mockup
 
 ![Project](https://img.shields.io/badge/Project-lightorange)
 

@@ -1,5 +1,4 @@
-﻿<a name="_qph3n655ck5k"></a>What is NGINX?
-
+﻿## What is NGINX?
 - Airbnb.ca → Inspect → Network
 - **Google Dev Tools Network Tab**: shows network requests made from the browser to a particular server to get content from
 - **Web Server:** a server that serves web content to the browser.
@@ -10,8 +9,7 @@
   - **Load Balancer:** NGINX is responsible for sending requests to servers that are working the least to optimize server space
   - All encryption and decryption happens in NGINX so that you do not have to do it for every single server
 
-<a name="_3y1gn79jd8nz"></a>NGINX Installation
-
+## NGINX Installation
 - **brew install nginx**: installs nginx package using homebrew to /usr/local/etc/
 - **nginx -t:** find where your nginx package is
 - **cd /opt/homebrew/etc/nginx/:** change into the nginx directory
@@ -20,14 +18,12 @@
 - **chrome → search bar → localhost:8080:** we are making a request to nginx on port 8080 and nginx is serving us this content
 - Go to networks → headers → server, and you will see that nginx is the webserver that is serving us the webpage
 
-<a name="_iwp5hmr0cviw"></a>NGINX Terminology
-
+## NGINX Terminology
 - **Directives:** key-value pairs of the nginx config file
 - **Context:** the blocks surrounding the key value pairs
 - **http Context:** defines our http server. Directives inside http context define it.
 
-<a name="_dzzm91gkfakb"></a>Serving Static Content
-
+## Serving Static Content
 - Delete everything in the nginx.config file
 - Create an index.html file in the Desktop environment
 - We want to configure NGINX to serve our html file whenever we go to localhost:8080
@@ -40,8 +36,7 @@
   - In the nginx.config within http-server context, type “root [filepath];”
 - After making changes to nginx.config, open the VS Code terminal and type “**nginx -s reload**” to update and launch the changes
 
-<a name="_oxe2fpa1fhbv"></a>Mime Types
-
+## Mime Types
 - Add a styles.css file to your project and link it to your html
 - However, the styles do not apply when you reload the page, even though the styles is shown on the network tab of google dev tools
 - If you scroll through the styles.css from the network headers tab, you see that the styles.css “Content-Type” is text/plain, when it should be text/css
@@ -49,8 +44,7 @@
   - Create a “include mime.types” directive inside the http context
   - Perform a hard reload with **COMMAND + SHIFT + R**
 
-<a name="_sro0jifm6xtk"></a>Location Block
-
+## Location Block
 - **root:** append a new page
 - **alias:** create an alias for the same page
 - **try\_files:** consider these listed files, and if it produces 403 forbidden, throw a 404 error
@@ -66,8 +60,7 @@
   - Use **regex** in the location context to create “~\* location /count/[0-9] {}”
   - Then put “root [filepath];” and “try\_files /index.html =404;” in it
 
-<a name="_uxyp1i4fbdjz"></a>Rewrite and Redirect
-
+## Rewrite and Redirect
 - **307:** status code represents a temporary redirect
 - If I append crops to the search query, I want it to redirect to fruits
   - Create a “location /crops” context
@@ -78,8 +71,7 @@
     - **\w+:**  represents a variable
     - The number rewrites the count
 
-<a name="_gj64ku4xlojp"></a>Load Balancer
-
+## Load Balancer
 - Instead of client worrying which server to make a request to, it’s instead going to make a request to to the internet which is caught by NGINX, and then it becomes NGINX’s responsibility to forward that request to a server it chooses using an algorithm
 - **Round Robin Algorithm:** the most common algorithm where it switches servers after handling the request and response from one server. It keeps moving back and forth through all the servers in a round robin approach.
 - **Docker:** best way to build servers as it builds server containers that are isolated
@@ -104,16 +96,16 @@
 - Create a docker file called “Dockerfile” with the following text
   - FROM node:16
 
-  - # Create app directory by specifying working directory
+  - ```# Create app directory by specifying working directory```
   - WORKDIR /usr/src/app
 
-  - # A wildcard is used to ensure package.json AND package-lock.json are copied
-  - # where available (npm@5+)
+  - ```# A wildcard is used to ensure package.json AND package-lock.json are copied
+  - ```# where available (npm@5+)```
   - COPY package\*.json ./
 
   - RUN npm install
-  - # If you are building your code for production
-  - # RUN npm ci --only=production
+  - ```# If you are building your code for production```
+  - ```# RUN npm ci --only=production```
 
   - COPY . .
 

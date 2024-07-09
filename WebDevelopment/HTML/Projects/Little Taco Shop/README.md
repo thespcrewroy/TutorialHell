@@ -37,7 +37,10 @@ Q2) How do I clone a repository into my local machine with Github desktop? <br>
 For questions, please direct them to stopsendingmespam@yahoo.com with the subject "Question - [Name of Project]".
 
 ## Issues
-Currently, there are 0 issues. 
+Currently, there is 1 issue.
+```
+* Edit and reupload the video demonstration with a real life intro and transition
+```
 If you would like to raise an issue, please direct them to stopsendingmespam@yahoo.com with the subject "Issue - [Name of Project]".
 The issue list of this repo is exclusively for bug reports and feature requests.
 

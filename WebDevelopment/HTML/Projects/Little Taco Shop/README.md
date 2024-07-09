@@ -10,7 +10,7 @@
 * The third page contains a "Contact Us" article and lists the location of the store.
 * Each page contains a footer for copyright, trademarks, and for other legal technicalities.
 
-## Video Demonstration of Project
+## Video Demonstration of Project (In Progress)
 [![Watch the video](https://img.youtube.com/vi/IupvXEB56Nc/0.jpg)](https://www.youtube.com/watch?v=IupvXEB56Nc)
 
 ## Credits: Learn HTML – Full Tutorial for Beginners (2022) By Dave Grey

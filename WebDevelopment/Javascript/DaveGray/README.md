@@ -9,8 +9,6 @@
 It is an all-in-one beginner tutorial to teach the basics of Javascript. <br>
 The course is essentially the UGA's CSCI 1301 and CSCI 1302, but for Javascript instead of Java.***
 
-[![Project](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/tree/main/HTML/Projects/Little%20Taco%20Shop)
-
 ## What I Learned
 * **Strings**
 * **Integers**

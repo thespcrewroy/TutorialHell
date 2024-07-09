@@ -1,4 +1,4 @@
-# NGINX Tutorial for Beginners (2024)
+# NGINX Tutorial for Beginners by IaithAcademy (2024)
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 
@@ -9,7 +9,7 @@
 and caching software. If you are looking for cheaper and more open-source <br>
 alternatives to AWS's Load Balancer, then this is the software for you.***
 
-[![Project](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/tree/main/HTML/Projects/Little%20Taco%20Shop)
+[![Project](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/tree/main/WebDevelopment/NGINX/Projects/HelloNGINX)
 
 ## What I Learned
 * **Installation**

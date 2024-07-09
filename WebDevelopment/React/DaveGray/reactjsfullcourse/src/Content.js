@@ -1,32 +1,43 @@
-import React from 'react'
+/* Currently at 1:10:00 in the video */
+
+import { useState } from "react"; // import the useState hook
 
 const Content = () => {
-    const handleNameChange = () => {
-        const names = ['Bob', 'Kevin', 'Dave'];
-        const int = Math.floor(Math.random() * 3);
-        return names[int];
-      }
-      
-    const handleClick = () => {
-        console.log('Button clicked!'); // Button clicked!
-    }
-
-    const handleClick2 = (name) => {
-        console.log(`${name} was clicked`); // Dave was clicked
-    }
-
-    const handleClick3 = (e) => {
-        console.log(e.target.innerText); // The inner text of the button clicked
-    }
+  const [items, setItems] = useState([
+    {
+      id: 1,
+      checked: false,
+      item: "One half pount bad of Cocoa Covered Almonds Unsalted",
+    },
+    {
+      id: 2,
+      checked: false,
+      item: "Item 2",
+    },
+    {
+      id: 3,
+      checked: false,
+      item: "Item 3",
+    },
+  ]);
 
   return (
     <main>
-        <p onDoubleClick={handleClick}>Hello {handleNameChange()}!</p>
-        <button onClick={handleClick}>Click It</button>
-        <button onClick={() => handleClick2('Dave')}>Click It</button>
-        <button onClick={(e) => handleClick3(e)}>Click It</button>
+      <ul>
+        {items.map(
+          (
+            item // map over the items array
+          ) => (
+            <li className="item" key={item.id}>
+              <input type="checkbox" checked={item.checked} />
+              <label>{item.item}</label>
+              <button>Delete</button>
+            </li>
+          )
+        )}
+      </ul>
     </main>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;

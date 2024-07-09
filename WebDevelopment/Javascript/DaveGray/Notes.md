@@ -1,5 +1,4 @@
-﻿<a name="_m7hk1bdjdbbk"></a>Quick Start
-
+﻿## Quick Start
 - **about:blank:** opens a blank webpage
 - **CTRL + SHIFT + I:** Open Chrome devtools
 - Change Devtools to dark theme: Settings → Theme → Dark
@@ -21,8 +20,7 @@
 - ` `**const**: Use this keyword when declaring javascript constants
 - **let:** Use this keyword when declaring javascript variables
 
-<a name="_qjzt2j9irjrd"></a>Strings
-
+## Strings
 - **[string].length:** length of string
 - **[string].charAt([x]):** get position of string at index x
 - **[string].indexOf([str]):** get index where first letter of first occurrence of that string is
@@ -34,8 +32,7 @@
 - **[string].split([str]):** split the string into an array of substrings with str not included
 - **[string].trim():** removes all trailing and leading whitespace characters
 
-<a name="_jhpyyesx41yy"></a>Integers
-
+## Integers
 - **Number.isNaN([str])):** [str] is NaN, however, it returns false because it checks is value NaN (true) && is value a number data type (false) where (true && false) === false
 - **Number.isInteger([str]):** determines if the input is an integer
 - **Number.parseFloat([str]):** convert string to float. If a number cannot be parsed, NaN
@@ -43,8 +40,7 @@
 - **[float].toFixed([x]);** Returns a string rounded to [x] decimal places
 - **[float].toString():** convert number to string
 
-<a name="_43dly4ss8sru"></a>Math Library
-
+## Math Library
 - **Math.PI:** generate pi
 - **Math.trunc(Math.PI):** remove the decimal part of a number
 - **Math.floor(Math.PI):** round down to the nearest integer
@@ -53,29 +49,24 @@
 - **Math.max([x1], [x2], [x3]):** the largest number
 - **Math.random():** random number between 0 and 1. Inclusive of 0, exclusive of 1
 
-<a name="_gcqz7ui833v3"></a>If and Switch Statements
-
+## If and Switch Statements
 - Use ``if using ${[var]} to print out the variable (ex.`Yes, we have ${soup} today.`)
 
-<a name="_cvw6n03llpg1"></a>Ternary Operators
-
+## Ternary Operators
 - condition ? ifTrue : ifFalse;
 
-<a name="_410aqm96auvd"></a>User Input
-
+## User Input
 - **alert([str]):** Shows a message box with a message
 - **let var = confirm("Ok === True\nCancel === False"):** hows a message box with a message and button where you can choose what happens when OK is clicked
 - **let var = prompt([str]):** Shows a prompt box with a message, input field, and OK and Cancel buttons. If no data is entered, null is returned, so check for that
 
-<a name="_cucv491hluey"></a>Functions
-
+## Functions
 - **function funcName([x1], [x2]) { }:** simple javascript function
 - **let var = function funcName([x1], [x2]) { }:** assign variable to function
 - **var = (x1, x2) => { };:** arrow function syntax
 - **funcName(x1,x2):** how to call a function
 
-<a name="_240y0t1l3tv9"></a>Arrays
-
+## Arrays
 - **[array].length:** length of the array
 - **[array[array.length - 1]]:** last item in the array
 - **[array[1]]:** first item in the array
@@ -93,8 +84,7 @@
 - **[str].split([str]):** convert string to array
 - **[array1].concat([array2]):** concatenate [array2] to [array1]
 
-<a name="_o7isxclh3h2"></a>Objects
-
+## Objects
 - Key-value pairs → const myObj = {[varName] : [value]};
 - Anonymous Function Syntax:
   - action: function() {
@@ -120,8 +110,7 @@
 - **function [funcName]({[objectKey]}) {return `${[objectKey]} … `}:** make a function out of the pulled out object key
 - **console.log([funcName]([objectName])):** utilize the function that uses pulled out key
 
-<a name="_8odzgy2o3v2p"></a>Classes
-
+## Classes
 - **Syntactic Sugar:** Does not change anything functionally about javascript
 - **class [className] {}:** create a class
 - **constructor([varName], [varName]) {}:** create a constructor function for the class
@@ -129,13 +118,11 @@
 - **[setterName]() {this.[keyName] = [keyName]}:** setter method for javascript
 - **[functionName]() {}:** create a function for the class object
 
-<a name="_v0h0hs4wvmb7"></a>JSON
-
+## JSON
 - **JSON.stringify([objectName]):** convert object into JSON
 - **JSON.parse([jsonName]):** convert JSON to object
 
-<a name="_4fw1xhq359af"></a>Errors
-
+## Errors
 - **“use strict”:** enable strict mode for the javascript file
 - **Type Error:** when you reassign a constant variable
 - **Syntax Error:** when code is syntactically incorrect
@@ -151,15 +138,11 @@
 - **err.stack:** access the stack trace of the error
 - **try {} catch{} finally {}:** used to handle errors but also execute something whether an error is thrown or not
 
-<a name="_pnmhso1mfo6n"></a>Document Object Model (DOM)
-
+## Document Object Model (DOM)
 - **HTML DOM:** DOM specific to HTML pages
 - **Nodes:** are everything in the HTML dom (more nodes than HTML elements)
 
-#
-
-# <a name="_riybcsrmix03"></a><a name="_7jssp2nuam1t"></a>Selectors
-
+### Selectors
 - **document.getElementById([id]):** select an html element object
 - **document.querySelector(#[id]):** select an html element object
 - **document.getElementsByClassName([id]):** returns an HTMLCollection of elements with the class with the [id]
@@ -168,8 +151,7 @@
 - **[id].getElementsByTagName(“div”):** returns a HTMLCollection of div elements within the element with the specific [id]
 - **[id].querySelectorAll("div:nth-of-type(2n)"):** returns a NodeList of even div elements within the element with the specific [id]
 
-# <a name="_ec7bh7ctetwi"></a>Inheritance
-
+### Inheritance
 - **[var].parentElement:** returns the parent element
 - **[var].parentElement.children:** returns HTMLCollection of all the children of the parent
 - **[var].parentElement.hasChildNodes():** returns true if the parent element has child node
@@ -183,8 +165,7 @@
 - **[var].previousSibling:** returns the previous sibling node
 - **[var].previousElementSibling:** returns the previous sibling element
 
-# <a name="_y8ig1z4hh6xw"></a>DOM Manipulation
-
+### DOM Manipulation
 - **[var].style.display = “[css]”:** whether to display an element and how it is displayed
 - **[var].style.backgroundColor = “[css]”**: change the background color of an element
 - **[var].style.width = “[css]”**: change the width of an element
@@ -195,8 +176,7 @@
 - **[var].textContent = [str]:** change the text content of an element
 - **[var].innerHTML = `[str]`**: change the html elements within an html element
 
-<a name="_mqjz7luilwjw"></a><a name="_2m5yllgqlam0"></a>Event Listeners
-
+## Event Listeners
 - **defer:** use this keyword in the html script tag to load html DOM before javascript
 - **addEventListener([name], [functionName], false):** create an event listener
   - **false:** bubble where it works from the innermost element
@@ -219,8 +199,7 @@
 - **[varName] === [str] ? [varName] = [str] : [varName] = [str]:** another way to toggle but for text
 - **event.preventDefault():** prevent flashing or reloading the form when submitting info
 
-<a name="_j0ar3ssxt48b"></a>Web Storage API
-
+## Web Storage API
 - **window.alert():** send a pop up alert
 - **window.location:** access the website URL
 - **Inspect → Application → Storage:** check what is stored in your session
@@ -237,8 +216,7 @@
 - **localStorage.length:** find out how many items are in a local storage
 - **localStorage.key([index]):** get the item you want from local storage
 
-<a name="_bsk84usoqrjc"></a>Modules
-
+## Modules
 - **type=“module”:** add this to the script tag in the html to use modules. Automatically applies the defer keyword which tells to load the DOM before the javascript. Automatically applies strict mode to javascript.
 - **export default [functionName]:** Allows you to export functions from one javascript file for use in another javascript file. Every javascript module can have one default export. You can also export inline by removing the const, adding the ‘export default’ keyword before the ‘function’ keyword, and also removing the arrow.
 - **export {[funcName], [funcName], …}:** export other functions in addition to the default. You can also export inline by adding the ‘export’ keyword before the ‘const’ keyword.
@@ -248,8 +226,7 @@
 - **Babble:** for older javascript projects where you can transfer/translate modern javascript code into older javascript syntax that will work in older browsers
 - **Webpack/Parcel:** often used with babble as a bundler to wee dand bundle all javascript code into one packaged JAR file
 
-<a name="_twj03kv7hef"></a>Higher Order Functions
-
+## Higher Order Functions
 - Takes one or more functions as an argument/parameter
 - Returns a function as a result
 - **forEach([iterator[):** if you do not need a specific iterator. Better than for loops.
@@ -257,8 +234,7 @@
 - **map([iterator]):** perform an operation on the feature and return the result
 - **reduce([iterator]):** use an operator parameter to perform an operation
 
-<a name="_5c5sqkhd4q2d"></a>Async/Await/Promises
-
+## Async/Await/Promises
 - **callback():** call a function that will in turn call another function.
 - **Callback Hell:** when there are funcs inside funcs, your code can become hard to follow
 - **Promises:** a way to execute functions within functions without callbacks. Delivers async code where it can execute two different blocks of code at once
@@ -271,8 +247,7 @@
 - **const [funcName] = async () => {}:** create a async arrow function
 - **Await:** always await promises if other code needs to execute after long running promises are executed. Must be used within an async function.
 
-<a name="_ozmvqoxqf0ro"></a>Regex
-
+## Regex
 - **regexr.com:** website to practice capturing regex expressions
 - **[enl]:** match e, n, and l individually
 - **[^enl]:** match everything except e, n, and l individually

@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from 'jsm/controls/OrbitControls.js';
+import { OrbitControls } from "jsm/controls/OrbitControls.js";
 import spline from "./spline.js";
 import { EffectComposer } from "jsm/postprocessing/EffectComposer.js";
 import { RenderPass } from "jsm/postprocessing/RenderPass.js";
@@ -53,7 +53,7 @@ const boxGeo = new THREE.BoxGeometry(size, size, size);
 for (let i = 0; i < numBoxes; i += 1) {
   const boxMat = new THREE.MeshBasicMaterial({
     color: 0xffffff,
-    wireframe: true
+    wireframe: true,
   });
   const box = new THREE.Mesh(boxGeo, boxMat);
   const p = (i / numBoxes + Math.random() * 0.1) % 1;
@@ -100,4 +100,4 @@ function handleWindowResize() {
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 }
-window.addEventListener('resize', handleWindowResize, false);
+window.addEventListener("resize", handleWindowResize, false);

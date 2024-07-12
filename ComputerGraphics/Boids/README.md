@@ -11,3 +11,4 @@
 ### [Processing Programming Language](https://processing.org/download)
 
 - **Let's you initialize computer graphics**
+- **Utilizes Java syntax**

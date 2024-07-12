@@ -1,0 +1,4 @@
+- **Project Setup**: 'npm create vite@latest ./ -- --template react'
+- **Install TailwindCSS**
+  - npm install -D tailwindcss (install)
+  - npx tailwindcss init (initialize)

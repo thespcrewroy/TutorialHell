@@ -18,3 +18,5 @@
 - Copy and paste the css starter code of mostly gradients, box shadows, 3 tailwind imports, and a font import
 - Copy and paste the styles.js starter code, where there are some useful tailwind utility styles for the hero and section texts
 - Update the tailwind config with the starter code which contains some primary, secondary, and teritary colors, box shadow, screen, and background image
+- Create a utils folder and copy over the motion.js starter code
+- Create a constants folder and copy over the constants.js starter code which contains all of the content for the application inclusing the services, technologies, expereinces, testimonials, and projects. Instead of placing the text within the code, it is placed in a single source content file where you can change it once, and it will be referenced everywhere else

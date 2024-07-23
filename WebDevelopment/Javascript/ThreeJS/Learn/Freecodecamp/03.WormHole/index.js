@@ -1,3 +1,4 @@
+/* Import Necessary Libraries */
 import * as THREE from "three";
 import { OrbitControls } from "jsm/controls/OrbitControls.js";
 import spline from "./spline.js";
@@ -5,41 +6,63 @@ import { EffectComposer } from "jsm/postprocessing/EffectComposer.js";
 import { RenderPass } from "jsm/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "jsm/postprocessing/UnrealBloomPass.js";
 
-const w = window.innerWidth;
-const h = window.innerHeight;
-const scene = new THREE.Scene();
-scene.fog = new THREE.FogExp2(0x000000, 0.3);
-const camera = new THREE.PerspectiveCamera(75, w / h, 0.1, 1000);
-camera.position.z = 5;
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(w, h);
-renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.outputColorSpace = THREE.SRGBColorSpace;
-document.body.appendChild(renderer.domElement);
+const fov = 75; // set the field of view to 75 degrees
+const w = window.innerWidth; // width
+const h = window.innerHeight; // height
+const aspect = w / h; // set the aspect ratio to the window width divided by the window height
+const near = 0.1; // set the near clipping plane to 0.1
+const far = 1000; // set the far clipping plane to 10
+const camera = new THREE.PerspectiveCamera(fov, aspect, near, far); // create a new PerspectiveCamera
+camera.position.z = 5; // set the z position of the camera to 5
 
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
-controls.dampingFactor = 0.03;
+/* Create a new WebGLRenderer with the following parameters: */
+const renderer = new THREE.WebGLRenderer(); // create a new WebGLRenderer
+renderer.setSize(w, h); // set the size of the renderer to the window width and height
+renderer.toneMapping = THREE.ACESFilmicToneMapping; // set the tone mapping to ACESFilmicToneMapping
+renderer.outputColorSpace = THREE.SRGBColorSpace; // set the output color space to SRGBColorSpace
+document.body.appendChild(renderer.domElement); // append the renderer to the body
 
-// post-processing
-const renderScene = new RenderPass(scene, camera);
-const bloomPass = new UnrealBloomPass(new THREE.Vector2(w, h), 1.5, 0.4, 100);
-bloomPass.threshold = 0.002;
-bloomPass.strength = 3.5;
-bloomPass.radius = 0;
-const composer = new EffectComposer(renderer);
-composer.addPass(renderScene);
-composer.addPass(bloomPass);
+/* Create a new OrbitControls with the following parameters: */
+const controls = new OrbitControls(camera, renderer.domElement); // create new OrbitControls
+controls.enableDamping = true; // enable damping
+controls.dampingFactor = 0.03; // set the damping factor to 0.03
 
-// create a line geometry from the spline
-const points = spline.getPoints(100);
-const geometry = new THREE.BufferGeometry().setFromPoints(points);
-const material = new THREE.LineBasicMaterial({ color: 0xff0000 });
-const line = new THREE.Line(geometry, material);
-// scene.add(line);
+const scene = new THREE.Scene(); // create a new Scene
 
-// create a tube geometry from the spline
-const tubeGeo = new THREE.TubeGeometry(spline, 222, 0.65, 16, true);
+/* Add Fog to the Scene */
+const color = new THREE.Color(0x000000); // set the color of the fog to black
+const density = 0.3; // set the density of the fog to 0.3
+scene.fog = new THREE.FogExp2(color, density); // add fog to the scene
+
+/* Post-processing */
+const renderScene = new RenderPass(scene, camera); // create a new RenderPass
+const bloomPass = new UnrealBloomPass(new THREE.Vector2(w, h), 1.5, 0.4, 100); // create a new UnrealBloomPass
+bloomPass.threshold = 0.002; // set the threshold of the bloom pass to 0.002
+bloomPass.strength = 3.5; // set the strength of the bloom pass to 3.5
+bloomPass.radius = 0; // set the radius of the bloom pass to 0
+const composer = new EffectComposer(renderer); // create a new EffectComposer
+composer.addPass(renderScene); // add the renderScene pass to the composer
+composer.addPass(bloomPass); // add the bloomPass to the composer
+
+/* Create a line geometry from the spline */
+const points = spline.getPoints(100); // get 100 points from the spline
+const geometry = new THREE.BufferGeometry().setFromPoints(points); // create a new BufferGeometry from the points
+const material = new THREE.LineBasicMaterial({ color: 0xff0000 }); // create a new LineBasicMaterial
+const line = new THREE.Line(geometry, material); // create a new Line with the geometry and material
+// scene.add(line); // add the line to the scene for debugging
+
+/* Create a tube geometry from the spline */
+const tubularSegments = 222; // set the number of tubular segments to 222
+const radius = 0.65; // set the radius of the tube to 0.65
+const radialSegments = 16; // set the number of radial segments to 8
+const closed = true; // set the tube to be closed so you can't see ahead
+const tubeGeo = new THREE.TubeGeometry(
+  spline,
+  tubularSegments,
+  radius,
+  radialSegments,
+  closed
+); // create a new TubeGeometry from the spline
 
 // create edges geometry from the spline
 const edges = new THREE.EdgesGeometry(tubeGeo, 0.2);

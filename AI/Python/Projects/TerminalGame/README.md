@@ -29,3 +29,16 @@ Happy coding!
 - You are an ancient space civilization that wants to manifest the power of the black hole
 - There is a chest at the center of the milky way that has the black hole in it
 - Navigate through space to find the chest at the center of the milky way
+- Remove the lamp, dark, and monster features of this game and then add other conditions of my own
+  - make fake chests
+  - make fake keys
+  - make hyphinated drawings of scary space monsters
+- Add HTML, CSS, and Javascript and make this a web app with a flask backend
+- Add documentation to all the code
+- Have a player select screen where you get to choose the name of your player and other features
+- Have a cool illustration to start the game
+- Give players instructions on how to traverse through the game
+- Give the players items that they need to collect, and the more items they collect before unlocking the chest, the greater their score is
+- Show a map each time the player moves to a new location that indicates where they are
+- Give the player health and an inventory
+- Make sure to test for all old and new features

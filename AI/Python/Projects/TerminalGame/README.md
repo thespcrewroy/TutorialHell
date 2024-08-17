@@ -1,3 +1,9 @@
+```
+# Notes
+* Make this a standalone repo since it is not a follow-along project
+* Make this a webapp since this can be a django + flask backend that I can submit for codedex, with an html and tailwindcss frontend
+```
+
 # Checkpoint ⛳️
 
 Congratulations on completing the first four chapters of The Legend of Python! Now let's use the skills you've learned (variables, control flow statements, and loops) to build a Python project on your own.

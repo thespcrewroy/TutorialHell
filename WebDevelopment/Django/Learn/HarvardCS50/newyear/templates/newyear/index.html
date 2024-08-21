@@ -1,0 +1,25 @@
+<!-- load static files -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is it New Year's?</title>
+    <link rel="stylesheet" href="{% static 'newyear/styles.css' %}" />
+    <!--look inside static/newyear/styles.css-->
+  </head>
+  <body>
+    {% if newyear %}
+    <!-- if newyear is true -->
+    <h1>YES</h1>
+    <!-- display YES -->
+    {% else %}
+    <!-- if newyear is false -->
+    <h1>NO</h1>
+    <!-- display NO -->
+    {% endif %}
+    <!-- end if statement -->
+  </body>
+</html>

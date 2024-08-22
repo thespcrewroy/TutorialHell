@@ -3,15 +3,13 @@
 - AI is a form of machine learning
 - AI models need vast about of training data (usually in the form of CSV files) to accurately and adequate predict results
 
-## Why Is ML Useful
+## Jailbreak Prompts
 - Instead of asking ChatGPT to correct the grammar of your paper, use a jailbreak prompt
-  - "I want you to act as a spoken English teacher. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes and typos. I want you to ask me a question in your reply. Now let’s start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."
+- **Example:** "I want you to act as a spoken English teacher. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes and typos. I want you to ask me a question in your reply. Now let’s start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."
 - Allows you to interact and communicate with the AI
 - The AI gives you suggestions and you are learning along the way
 
-## Linguistics
-- The study of language
-- The key to prompt engineering
+## Linguistics - The Study of Language and Key to Prompt Engineering
 - Phonetics: the study of how speech sounds are proved and perceived
 - Phonology: the study of sound patterns and changes
 - Morphology: the study of word structure

@@ -16,3 +16,5 @@
 
 - **Let's you initialize computer graphics**
 - **Utilizes Java syntax**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT%202024-orange.svg)](https://opensource.org/license/mit)

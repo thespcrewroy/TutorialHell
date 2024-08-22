@@ -1,4 +1,4 @@
-# CS50W - Lecture 3 - Django by Harcard CS50 Web Programming
+# CS50W - Lecture 3 - Django by Harcard CS50 Web Programming (2021)
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 

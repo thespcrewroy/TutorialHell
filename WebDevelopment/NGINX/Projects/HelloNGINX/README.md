@@ -8,14 +8,14 @@
 * There are 4 docker containers
 * NGINX acts as a load balancer that constantly redirects traffic between the 4 docker enpoints
 
-## Video Demonstration of Project (In Progress)
+## Video Demonstration of Project (NF)
 
 ## Credits: NGINX Tutorial for Beginners by IaithAcademy (2024)
 [![Watch the video](https://img.youtube.com/vi/9t9Mp0BGnyI/0.jpg)](https://www.youtube.com/watch?v=9t9Mp0BGnyI)
 
-## How to Run Locally 👇 (In Progress)
+## How to Run Locally 👇 (NF)
 
-## FAQ (In Progress)
+## FAQ (NF)
 
 ## Questions
 For questions, please direct them to stopsendingmespam@yahoo.com with the subject "Question - [Name of Project]".
@@ -23,7 +23,7 @@ For questions, please direct them to stopsendingmespam@yahoo.com with the subjec
 ## Issues
 Currently, there are 4 issues. 
 ```
-* Finish vide demonstration
+* Finish video demonstration
 * Make a comprehensive script that starts the docker containers and loads the website
 * Finish how to run loacally instructions
 * Finish the FAQ

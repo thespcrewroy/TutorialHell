@@ -1,7 +1,3 @@
-# Boid Flocking Genetic Algorithm
-
-![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
-
 ## [Boids](https://en.wikipedia.org/wiki/Boids)
 
 - **Are a group of cells that can move**

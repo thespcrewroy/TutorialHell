@@ -10,7 +10,7 @@
 * The third page contains a "Contact Us" article and lists the location of the store.
 * Each page contains a footer for copyright, trademarks, and for other legal technicalities.
 
-## Video Demonstration:
+## Video Demonstration
 [![Watch the video](https://img.youtube.com/vi/IupvXEB56Nc/0.jpg)](https://www.youtube.com/watch?v=IupvXEB56Nc)
 
 ## Credits: Learn HTML – Full Tutorial for Beginners (2022) By Dave Grey
@@ -21,10 +21,9 @@
 2. Install the necessary VSCode Extensions (check [FAQ](#faq))
 3. Download [Github Desktop](https://desktop.github.com/)
 4. Clone the repository into your local machine (check [FAQ](#faq))
-5. Navigate to HTML --> Projects --> Little Taco Shop
-6. Open "Little Taco Shop" Folder in VS Code
-7. Navigate to index.html
-8. Right click and select "Open with Live Server" (Shortcut: CTRL + L + O)
+5. Navigate to WebDevelopment --> HTML --> Projects --> Little Taco Shop
+6. Navigate to index.html
+7. Right click and select "Open with Live Server" (Shortcut: CTRL + L + O)
 
 ## FAQ
 Q1) What extensions do I install on VSCode? <br>

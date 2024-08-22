@@ -1,4 +1,4 @@
-# Learn Boid Flocking Genetic Algorithm
+# Boid Flocking Genetic Algorithm
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 

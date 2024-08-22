@@ -2,7 +2,7 @@
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 
-[![Watch the video](https://img.youtube.com/vi/EfAl9bwzVZk/0.jpg)](https://www.youtube.com/watch?v=EfAl9bwzVZk)
+[![Watch the video](https://img.youtube.com/vi/CvCiNeLnZ00/0.jpg)](https://www.youtube.com/watch?v=CvCiNeLnZ00)
 
 ## Introduction
 ***This is a comprehensive course of the MERN Stack taught by Dave Gray.  <br>

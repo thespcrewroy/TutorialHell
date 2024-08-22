@@ -28,10 +28,10 @@
 8. Right click and select "Open with Live Server" (Shortcut: CTRL + L + O)
 
 ## FAQ
-Q1) What extensions do I install on VSCode? <br>
+Q1) What extensions do I install on VSCode?
 * "Live Server" by Ritwick Dey
 
-Q2) How do I clone a repository into my local machine with Github desktop? <br>
+Q2) How do I clone a repository into my local machine with Github desktop?
 * Check out this [tutorial](https://www.youtube.com/watch?v=PoZNIbs_wx8)
 
 ## Questions

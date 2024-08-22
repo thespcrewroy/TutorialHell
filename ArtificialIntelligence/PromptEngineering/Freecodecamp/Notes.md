@@ -98,7 +98,8 @@
 - Convert the text prompt into a high dimensional vector that captures its semantic info
 - **Semantic Meaning:** the meaning behind the word
 
-Embedding for Food Example
+## Embedding for Food Example
+&nbsp; &nbsp; &nbsp; <img width="630" alt="text_embedding_example" src="https://github.com/user-attachments/assets/3ec6adc4-496c-4257-99fb-dab166c83bb7">
 
 - [OpenAI Text Embeddings API](https://platform.openai.com/docs/api-reference/embeddings/create)
   - Create a post request to the endpoint

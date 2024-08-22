@@ -1,4 +1,4 @@
-# Learn HTML - Full Tutorial for Beginners (2022) by Dave Gray
+# Learn HTML - Full Tutorial for Beginners by Dave Gray (2022)
 
 ![Tutorial](https://img.shields.io/badge/Tutorial-lightorange)
 

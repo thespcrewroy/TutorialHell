@@ -10,7 +10,7 @@
 a professional designer builds a full website design from scratch following the process of 
 user experience and user interface.***
 
-[![UI Layout](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/blob/main/Figma/Projects/Website%20Mockup/README.md)
+[![UI Layout](https://img.shields.io/badge/Click%20Here%20To%20See%20My%20Project!-pink)](https://github.com/thespcrewroy/TutorialHell/blob/main/WebDevelopment/Figma/Projects/Website%20Mockup/README.md)
 
 ## What I Learned
 * **Wireframing**

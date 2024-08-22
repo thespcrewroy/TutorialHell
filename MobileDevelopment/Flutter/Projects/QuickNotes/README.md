@@ -6,7 +6,7 @@
 
 ## Video Demonstration (NF)
 
-## Credits: Learn HTML – Full Tutorial for Beginners (2022) By Dave Grey (NF)
+## Credits (NF)
 
 ## How to Run Locally 👇 (NF)
 
